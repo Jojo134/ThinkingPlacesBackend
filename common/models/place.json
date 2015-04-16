@@ -4,16 +4,16 @@
   "base": "PersistedModel",
   "idInjection": true,
   "properties": {
-    "id": {
-      "type": "number",
-      "required": true
-    },
     "name": {
       "type": "string",
       "required": true
     },
-    "location": {
-      "type": "geopoint",
+    "latitude": {
+      "type": "number",
+      "required": true
+    },
+	"longitude": {
+      "type": "number",
       "required": true
     },
     "rating": {
